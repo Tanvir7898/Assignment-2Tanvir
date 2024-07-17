@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.sec-font{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+/* nav styles */
+.bg{
+    background: linear-gradient(rgba(17, 17, 17, 1), rgba(28, 27, 27, 1));
+}
+.gym-name{
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #E6533C;
+}
+.nav-bar{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 0px;
+}
+.nav-items{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    padding: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+}
+.btn-primary{
+    margin-left: 0px;
+    background-color: #E6533C;
+    padding: 4px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 16px;
+    border: none;
+}
+.btn-primary-2{
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 15px;
+    color: white;
+    background-color: #E6533C;
+    padding: 10px 35px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 16px;
+    border: none;
+}
+.btn-primary-3{
+    margin-top: 15px;
+    margin-left: 0px;
+    color: white;
+    background-color: #000000;
+    padding: 10px 35px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 16px;
+    border: 1px solid white;
+}
+
+
+/* banner */
+.banner{
+    display: flex;
+    justify-content: center;
+
+}
+.banner-title{
+    margin-top: 60px;
+    position: static;
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;   
+}
+.title-1{
+    font-size: 4.6rem;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 0;
+}
+.banner-des{
+    margin-top: 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.pic{
+    width: 100%;
+}
+#first-text{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+#next-text{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+#upper-btn{
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: -125px;
+    margin-top: 140px;
+}
+#lower-btn{
+    background-color: rgba(48, 48, 48, 0.54);
+    margin-left: -460px;
+    margin-top: 440px;
+    padding: 0px 35px;
+}
+.fa-solid,.fa-circle-play{
+font-size: 30px;
+margin-right: 5px;
+}
+
+/* Responsive for mobile*/
+@media screen and (max-width: 576px) {
+    .nav-bar{
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .nav-item{
+        display: none;
+    }
+}
