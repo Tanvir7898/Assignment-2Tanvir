@@ -18,6 +18,12 @@
 .bg{
     background: linear-gradient(rgba(17, 17, 17, 1), rgba(28, 27, 27, 1));
 }
+.bg2{
+    background-color: #000000;
+}
+.bg3{
+    background-color: rgba(34, 34, 34, 1);
+}
 .gym-name{
     font-size: 1.5em;
     font-weight: 800;
@@ -86,7 +92,18 @@
     border-radius: 16px;
     border: 1px solid white;
 }
-
+.btn-primary-4{
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 15px;
+    color: white;
+    background-color: #E6533C;
+    padding: 20px 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+}
 
 /* banner */
 .banner{
@@ -144,7 +161,86 @@
 font-size: 30px;
 margin-right: 5px;
 }
+/* Body styles */
+.b1-title{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.b1-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 55px;
+   
+}
+.b2-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    text-align: justify;
+}
+.intro{
+    margin-top: 100px;
+    text-align: center;
+}
+.t2-2{
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+.des-2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+}
 
+.round-pic{
+    border-radius: 50%;
+    margin-left: 25px;
+    border: 4px solid rgb(32, 31, 31);
+
+}
+.container1{
+    width: 1020px;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.body2{
+    max-width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+.content2{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
+.img-cont{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.t-pic{
+    border-radius: 25px;
+}
 /* Responsive for mobile*/
 @media screen and (max-width: 576px) {
     .nav-bar{
@@ -215,5 +311,36 @@ margin-right: 5px;
     .r-banner{
      display: flex;
     }
+    .container1{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .items{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .round-pic{
+        margin-left: 100px;
+    }
+    .body2{
+       flex-direction: column;
+       align-items: center;
+     
+    }
+    .btn-primary-4{
+        
+        padding: 20px 140px;
+        font-size: 1.5rem;
+        margin-left: 20px;
+        
+    }
+    .content2{
+        margin-left: 60px;
+        margin-top: 40px;
+        margin-right: 60px;
+        margin-bottom: 30px;
+    }
+
+    }
     
-}
