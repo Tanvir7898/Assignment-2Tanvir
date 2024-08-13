@@ -104,6 +104,18 @@
     border-radius: 25px;
     border: none;
 }
+.btn-primary-5{
+    margin-top: 15px;
+    margin-left: 0px;
+    margin-right: 15px;
+    color: white;
+    background-color: #E6533C;
+    padding: 10px 35px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 16px;
+    border: none;
+}
 
 /* banner */
 .banner{
@@ -168,6 +180,19 @@ margin-right: 5px;
     font-weight: bold;
     margin-bottom: 10px;
 }
+.b2-title{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.b3-title{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 .b1-des{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
@@ -183,6 +208,14 @@ margin-right: 5px;
     letter-spacing: 0.3px;
     line-height: 24px;
     text-align: justify;
+}
+.b3-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
 }
 .intro{
     margin-top: 100px;
@@ -241,6 +274,67 @@ margin-right: 5px;
 .t-pic{
     border-radius: 25px;
 }
+.middle-text{
+    padding-top: 40px;
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.table{
+    border-collapse: collapse;
+    color: #fff;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #525151;
+    
+}
+tbody td{
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-form{
+    width: 400px;
+}
+.bmi-form input, .m-select{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border: none;
+}
+.selectS{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 128px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: none;
+    justify-items: start;
+    margin-top: 10px;
+}
+.table{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.from-s{
+    margin-bottom: 1px;
+}
+.form-row{
+    display: grid;
+    grid-template-columns:  repeat(2,1fr);
+    gap: 10px;
+}
+.bmi-calculation{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(34, 34, 34, 1);
+}
+
 /* Responsive for mobile*/
 @media screen and (max-width: 576px) {
     .nav-bar{
@@ -341,6 +435,15 @@ margin-right: 5px;
         margin-right: 60px;
         margin-bottom: 30px;
     }
+    .bmi-calculation{
+        flex-direction: column;
+        width: 90%;
+        padding-left: 50px;
+    }
 
+    .middle-text{
+        width: 90%;
+        margin-left: 30px;
+    }
     }
     
